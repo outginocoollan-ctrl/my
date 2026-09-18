@@ -1,143 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Mi Perfil Profesional</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background: linear-gradient(135deg, #2980b9, #6dd5fa, #ffffff);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .container {
-      width: 100%; /* más ancho */
-      max-width: 1400px; /* mayor límite */
-      aspect-ratio: 16/9;
-      background: #fff;
-      border-radius: 20px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-      display: grid;
-      grid-template-columns: 1fr 1.5fr; /* mejor proporción */
-      gap: 20%; /* menos espacio vacío */
-      padding: 10px; /* relleno interno */
-      overflow: hidden;
-      animation: fadeIn 1s ease-in-out;
-    }
-    .profile {
-      background: #f0f2f5;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 10px;
-    }
-    .profile img {
-      width: 175px;
-      height: 160px;
-      border-radius: 60%;
-      border: 8px solid #5db3ec;
-      transition: transform 0.3s;
-    }
-    .profile img:hover {
-      transform: scale(1.1);
-    }
-    .profile h1 {
-      margin: 15px 0 5px;
-      color: #2c3e50;
-      text-align: center;
-    }
-    .profile p {
-      margin: 5px 0;
-      color: #555;
-      text-align: center;
-    }
-    .info {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-    .section {
-      margin-bottom: 15px;
-    }
-    .section h3 {
-      color: #2980b9;
-      margin-bottom: 8px;
-    }
-    .section ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .section li {
-      margin: 12px 0;
-    }
-    .section a {
-      color: #2c3e50;
-      text-decoration: none;
-      transition: color 1.0s;
-    }
-    .section a:hover {
-      color: #2980b9;
-      text-decoration: underline;
-    }
-    @keyframes fadeIn {
-      from {opacity: 0; transform: translateY(20px);}
-      to {opacity: 1; transform: translateY(0);}
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis juegos favoritos</title>
 </head>
 <body>
-  <div class="container">
-    <!-- Perfil -->
-    <div class="profile">
-      <img src="fotocarne.jpg" alt="Foto de perfil">
-      <h1>Gino Sebastián Collantes Atalaya</h1>
-      <p>📧 <a href="mailto:gino.collantesa@unmsm.edu.pe">gino.collantesa@unmsm.edu.pe</a></p>
-      <p>🎓 Ciencias de la Computación<p> 
-      <p>📍Especializado en Inteligencia Artificial</p>
-      <p>Universidad Nacional Mayor de San Marcos</p>
-      <p>Facultad de Ingeniería de Sistemas e Informática</p>
-      <p>Edad: 20</p>
-    </div>
-
-    <!-- Información -->
-    <div class="info">
-      <div class="section">
-        <h3>🌐 Perfiles personales</h3>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/gino-collantes-152b16405/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://github.com/outginocoollan-ctrl" target="_blank">GitHub</a></li>
-          <li><a href="https://www.instagram.com/sensebasca/" target="_blank">Instagram</a></li>
-        </ul>
-      </div>
-
-      <div class="section">
-        <h3>📚 Cursos que estudio</h3>
-        <ul>
-          <li>Introducción a la computación // Ernesto Cuadros</li>
-          <li>Álgebra y Geometría Analítica // Hellen Terreros</li>
-          <li>Cálculo I // Edwin Maravi</li>
-          <li>Redacción y Técnicas de Comunicación // Ana Coronel</li>
-          <li>Métodos de Estudios Universitarios // Miryam Cosme</li>
-          <li>Desarrollo Personal y Liderazgo // Luz Basualdo</li>
-          <li>Medio Ambiente // Petronila Fanola</li>       
-        </ul>
-      </div>
-
-      <div class="section">
-        <h3>🔗 Docente y Socios</h3>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/ecuadrosv/">Docente Cuadros</a></li>
-          <li><a href="https://pe.linkedin.com/in/gabriela-portilla-59792b264" target="_blank">Gabriela Portilla</a></li>
-          <li><a href="https://01-achulli.github.io/" target="_blank">Kiara Achulli</a></li>
-          <li><a href="https://aleesullc.github.io/" target="_blank">Alexandra Sullca</a></li>
-          <li><a href="https://jhoos-a1ban.github.io/jhosney-alban/" target="_blank">Jhosney Alban</a></li>
-        <ul>
-    </div>
-  </div>
+    <ol>
+        <li>Life is Strange</li>
+        <li>L4D2</li>
+        <li>Stardew Valley</li>
+        <li>RE4</li>
+    </ol>
 </body>
 </html>
